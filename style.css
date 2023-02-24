@@ -43,7 +43,12 @@ main {
   padding: 118px 24px;
 }
 
+h1 {
+  color: #172b4d;
+}
+
 .introduction {
+  color: #344563;
   margin-top: 12px;
   text-align: justify;
   margin-bottom: 12px;
