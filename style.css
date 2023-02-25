@@ -12,6 +12,8 @@ body {
   height: 100vh;
 }
 
+/* Toolbar Headline CSS  */
+
 .white-background {
   background-color: white;
   border-bottom-left-radius: 100px;
@@ -73,10 +75,11 @@ h1 {
   color: #6070ff;
 }
 
+/* Work Section CSS */
+
 .all-project-section {
   margin: 114px 24px 0;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 114px;
 }
 
@@ -155,11 +158,15 @@ h1 {
   margin-left: 20px;
   margin-top: 24px;
   margin-bottom: 28px;
+  color: #396df2;
 }
 
-.contain {
-  height: 100;
+.see-project:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
+
+/* About Section CSS */
 
 .about-section {
   background-color: white;
@@ -168,7 +175,7 @@ h1 {
   margin-top: 114px;
 }
 
-.about-section > h1 {
+.about-section > h2 {
   font-weight: 700;
   font-size: 40px;
   color: #172b4d;
@@ -196,6 +203,7 @@ h1 {
   padding: 12px;
   border-radius: 8px;
   margin-top: 24px;
+  color: #396df2;
 }
 
 .my-skills {
@@ -238,6 +246,20 @@ h1 {
   align-items: center;
   gap: 16px;
   padding: 9px;
+}
+
+.button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.button:active {
+  background-color: #2230d2;
+}
+
+.button:disabled {
+  border: 1px solid #e5e5e5;
+  color: #5e6c84;
 }
 
 @media (min-width: 768px) {
