@@ -13,10 +13,9 @@ body {
 }
 
 .white-background {
-  display: none;
   background-color: white;
   border-bottom-left-radius: 100px;
-  height: 100vh;
+  height: 700px;
 }
 
 header {
@@ -75,7 +74,6 @@ h1 {
 }
 
 .work-section {
-  display: none;
   margin: 114px 24px 0;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -83,6 +81,7 @@ h1 {
 }
 
 .snapshot {
+  /* position: relative; */
   margin-top: 20px;
   text-align: center;
 }
@@ -159,8 +158,8 @@ h1 {
 .about-section {
   background-color: white;
   border-top-right-radius: 100px;
-  /* height: 100vh; */
   padding: 114px 24px;
+  margin-top: 114px;
 }
 
 .about-section > h1 {
@@ -193,23 +192,7 @@ h1 {
   margin-top: 24px;
 }
 
-.language-skills {
-  display: flex;
-  justify-content: space;
-  align-items: center;
-  gap: 157px;
-  margin-top: 60px;
-}
-
-.language-skills > p {
-  font-weight: 500;
-  font-size: 20px;
-}
-
 .my-skills {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: 1;
   margin-top: 20px;
 }
 
@@ -221,6 +204,35 @@ h1 {
   font-size: 20px;
   padding: 24px 12px;
   border-bottom: 1px solid #dfe1e6;
+}
+
+.language-title {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+}
+
+.my-skills > .language-skills {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: none;
+}
+
+.language-names {
+  display: grid;
+  gap: 12px;
+  margin-top: 24px;
+  padding: 12px;
+}
+
+.language-name {
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  padding: 9px;
 }
 
 @media (min-width: 768px) {
