@@ -46,6 +46,8 @@ main {
 
 h1 {
   color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .introduction {
@@ -73,6 +75,7 @@ h1 {
 }
 
 .work-section {
+  display: none;
   margin: 114px 24px 0;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -151,6 +154,73 @@ h1 {
 
 .contain {
   height: 100;
+}
+
+.about-section {
+  background-color: white;
+  border-top-right-radius: 100px;
+  /* height: 100vh; */
+  padding: 114px 24px;
+}
+
+.about-section > h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #172b4d;
+}
+
+.connect-about {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #7f8cff;
+  margin-bottom: 14px;
+}
+
+.about-section > .about-intro {
+  color: #344563;
+  margin: 12px 0;
+}
+
+.resume {
+  width: 158px;
+  height: 48px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  border: 1px solid #6070ff;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+.language-skills {
+  display: flex;
+  justify-content: space;
+  align-items: center;
+  gap: 157px;
+  margin-top: 60px;
+}
+
+.language-skills > p {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.my-skills {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1;
+  margin-top: 20px;
+}
+
+.my-skills > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 24px 12px;
+  border-bottom: 1px solid #dfe1e6;
 }
 
 @media (min-width: 768px) {
