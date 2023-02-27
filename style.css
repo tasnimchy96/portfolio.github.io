@@ -132,7 +132,8 @@ h1 {
 }
 
 .used-language {
-  display: flex;
+  /* display: flex; */
+  /* float: right; */
   margin-left: 20px;
   gap: 8px;
   margin-top: 12px;
@@ -140,6 +141,8 @@ h1 {
 }
 
 .language {
+  float: left;
+  margin-right: 8px;
   background-color: #ebebff;
   color: #6070ff;
   padding: 4px 12px;
