@@ -132,8 +132,6 @@ h1 {
 }
 
 .used-language {
-  /* display: flex; */
-  /* float: right; */
   margin-left: 20px;
   gap: 8px;
   margin-top: 12px;
