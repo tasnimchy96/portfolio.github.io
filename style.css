@@ -265,6 +265,10 @@ h1 {
   color: #5e6c84;
 }
 
+.clear {
+  clear: both;
+}
+
 @media (min-width: 768px) {
   main {
     padding: 50px 24px;
