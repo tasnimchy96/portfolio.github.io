@@ -15,6 +15,7 @@ body {
 /* Toolbar Headline CSS  */
 
 .white-background {
+  display: none;
   background-color: white;
   border-bottom-left-radius: 100px;
   height: 700px;
@@ -78,12 +79,14 @@ h1 {
 /* Work Section CSS */
 
 .all-project-section {
+  display: none;
   margin: 114px 24px 0;
   display: grid;
   gap: 114px;
 }
 
 .work-section {
+  display: none;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -170,6 +173,7 @@ h1 {
 /* About Section CSS */
 
 .about-section {
+  display: none;
   background-color: white;
   border-top-right-radius: 100px;
   padding: 114px 24px;
@@ -265,6 +269,21 @@ h1 {
 
 .clear {
   clear: both;
+}
+
+.contact-me {
+  background-color: #6070ff;
+  border-top-left-radius: 100px;
+  background-image: url("./images/contact-form.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: cover;
+  /* background-position: right; */
+  /* background-position: initial; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* height: 100%;*/
 }
 
 @media (min-width: 768px) {
