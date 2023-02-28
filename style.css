@@ -282,12 +282,61 @@ h1 {
   /* background-position: initial; */
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
   /* height: 100%;*/
+  padding: 103px 24px 45px 24px;
+  gap: 18px;
+  
 }
 
+.contact-me-tittle {
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.contact-me-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+
+    text-align: center;
+    /* Primary/B50 */
+    margin-bottom:28px;
+    color: #EBEBFF;
+}
+
+form input {
+    width: 100%;
+    margin-bottom: 18px;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    padding: 15px 0 15px 16px;
+    color: #172B4D;
+}
+
+form textarea {
+    width: 100%;
+    margin-bottom: 18px;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    padding: 15px 0 15px 16px;
+    color: #B3BAC5;
+}
+
+
 @media (min-width: 768px) {
-  main {
+    main {
     padding: 50px 24px;
   }
 
