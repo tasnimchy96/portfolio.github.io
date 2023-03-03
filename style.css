@@ -31,6 +31,12 @@ header {
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.logo:hover {
+  font-size: 24px;
+  color: #b3bac5;
 }
 
 .menu img {
@@ -49,7 +55,7 @@ h1 {
   color: #172b4d;
   font-weight: 700;
   font-size: 40px;
-  animation-name: slide-in ;
+  animation-name: slide-in;
   animation-duration: 2s;
 }
 
