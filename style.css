@@ -38,6 +38,10 @@ header {
   height: 24px;
 }
 
+.nav-item {
+  display: none;
+}
+
 main {
   background-image: url("./images/header-shapes\ mobile.png");
   background-size: 100% 90%;
@@ -176,7 +180,7 @@ h1 {
   margin-top: 114px;
 }
 
-.about-section > h2 {
+.about-section-text > h2 {
   font-weight: 700;
   font-size: 40px;
   color: #172b4d;
@@ -189,7 +193,7 @@ h1 {
   margin-bottom: 14px;
 }
 
-.about-section > .about-intro {
+.about-section-text > .about-intro {
   color: #344563;
   margin: 12px 0;
 }
@@ -310,7 +314,7 @@ form input {
   margin-bottom: 18px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  padding: 15px 0 15px 16px;
+  padding: 15px 38px 15px 16px;
   color: #172b4d;
 }
 
@@ -319,7 +323,7 @@ form textarea {
   margin-bottom: 18px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  padding: 15px 0 15px 16px;
+  padding: 15px 38px 15px 16px;
   color: #b3bac5;
 }
 
@@ -351,15 +355,126 @@ form textarea {
 }
 
 @media (min-width: 768px) {
+  .white-background {
+    display: none;
+    border-bottom-left-radius: 100px;
+    height: 100vh;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 155px 0;
+  }
+
+  .menu img {
+    display: none;
+  }
+
+  .nav-item {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .nav-item > li > a {
+    text-decoration: none;
+    color: #344563;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
   main {
-    padding: 50px 24px;
+    padding: 170px 200px 0%;
+    background-image: url("./images/desktop-header-bg.png");
+    background-size: 100%;
+    background-position-x: center;
+    height: 100vh;
   }
 
-  .introduction {
-    margin: 25px 0;
+  .remove-br {
+    display: none;
   }
 
-  .connect {
-    margin: 20px 0;
+  .all-project-section {
+    margin: 142px;
+    display: none;
+  }
+
+  .work-section {
+    display: flex;
+  }
+
+  .snapshot {
+    min-width: 50%;
+    margin: 0;
+  }
+
+  .snapshot > img {
+    padding: 24px;
+    width: 100%;
+  }
+
+  .project-info {
+    min-width: 50%;
+    gap: 2px;
+  }
+
+  /* About Myself Section */
+
+  .about-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 37px;
+  }
+
+  .my-skills {
+    margin: 0;
+  }
+
+  .language-names {
+    display: flex;
+  }
+
+  .language-name {
+    width: 120px;
+    flex-direction: column;
+  }
+
+  /* Contact Me Section */
+
+  .contact-me {
+    padding: 103px 140px 90px;
+    gap: 27px;
+  }
+
+  .contact-me-text {
+    margin: 0;
+  }
+
+  form {
+    display: grid;
+    gap: 27px;
+  }
+
+  form input {
+    border-radius: 2px;
+    margin-bottom: 0;
+    width: 447px;
+  }
+
+  form textarea {
+    border-radius: 2px;
+    margin-bottom: 0;
+  }
+
+  .submit-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  #submit {
+    margin-bottom: 0;
   }
 }
