@@ -49,6 +49,17 @@ h1 {
   color: #172b4d;
   font-weight: 700;
   font-size: 40px;
+  animation-name: slide-in ;
+  animation-duration: 2s;
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: 200px;
+  }
+  to {
+    margin-left: 0px;
+  }
 }
 
 .introduction {
