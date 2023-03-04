@@ -15,12 +15,17 @@
         <a class="logo">my logo</a>
         <nav class="menu">
           <img src="./images/Menu.png" alt="menu" />
+          <ul class="nav-item">
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
         </nav>
       </header>
       <main>
         <h1>
           I'm Tasnim <br />
-          Glad to see <br />
+          Glad to see <br class="remove-br" /> 
           you!
         </h1>
         <p class="introduction">
@@ -70,7 +75,7 @@
         <div class="snapshot">
           <img src="./images/snapshot-1.svg" alt="" />
         </div>
-        <div>
+        <div class="project-info">
           <p class="snapshot-title">Tonic</p>
           <div class="client-info">
             <p class="client">CANOPY</p>
@@ -88,20 +93,21 @@
             <li class="language">css</li>
             <li class="language">javascript</li>
           </ul>
-          <div class="clear"></div>
-          <div href="#" class="see-project button"><a>See Project</a></div>
+          <div href="#" class="see-project button clear-margin">
+            <a>See Project</a>
+          </div>
         </div>
       </div>
 
       <!-- Project 2 -->
 
-      <div class="work-section">
+      <div class="work-section swap">
         <div class="snapshot">
           <img src="./images/snapshot-2.svg" alt="" />
         </div>
-        <div>
+        <div class="project-info">
           <p class="snapshot-title">
-            Multi-Post <br />
+            Multi-Post <br class="remove-br" />
             Stories
           </p>
           <div class="client-info">
@@ -120,8 +126,9 @@
             <li class="language">css</li>
             <li class="language">javascript</li>
           </ul>
-          <div class="clear"></div>
-          <div href="#" class="see-project button"><a>See Project</a></div>
+          <div href="#" class="see-project button clear-margin">
+            <a>See Project</a>
+          </div>
         </div>
       </div>
 
@@ -131,7 +138,7 @@
         <div class="snapshot">
           <img src="./images/snapshot-3.svg" alt="" />
         </div>
-        <div>
+        <div class="project-info">
           <p class="snapshot-title">Tonic</p>
           <div class="client-info">
             <p class="client">CANOPY</p>
@@ -149,20 +156,21 @@
             <li class="language">css</li>
             <li class="language">javascript</li>
           </ul>
-          <div class="clear"></div>
-          <div href="#" class="see-project button"><a>See Project</a></div>
+          <div href="#" class="see-project button clear-margin">
+            <a>See Project</a>
+          </div>
         </div>
       </div>
 
       <!-- Project 4 -->
 
-      <div class="work-section">
+      <div class="work-section swap">
         <div class="snapshot">
           <img src="./images/snapshot-4.svg" alt="" />
         </div>
-        <div>
+        <div class="project-info">
           <p class="snapshot-title">
-            Multi-Post <br />
+            Multi-Post <br class="remove-br" />
             Stories
           </p>
           <div class="client-info">
@@ -181,134 +189,140 @@
             <li class="language">css</li>
             <li class="language">javascript</li>
           </ul>
-          <div class="clear"></div>
-          <div href="#" class="see-project button"><a>See Project</a></div>
+          <div href="#" class="see-project button clear-margin">
+            <a>See Project</a>
+          </div>
         </div>
       </div>
     </section>
     <!-- Work Section Ends -->
 
-    <!-- About Section Starts -->
+    <section class="background">
+      <!-- About Section Starts -->
 
-    <section class="about-section">
-      <h2>
-        About <br />
-        Myself
-      </h2>
-      <p class="about-intro">
-        Hello I’m a software developer! I can help you build a product , feature
-        or website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don’t hestiate to contact me.
-      </p>
-      <p class="connect-about">let's connect</p>
-      <ul class="connect_icons">
-        <li>
-          <a href="#">
-            <img src="./images/media-icons/twitter.svg" alt="twitter" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./images/media-icons/linkedin.svg" alt="linkedin" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./images/media-icons/Vector-1.svg" alt="vector-1" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./images/media-icons/github.svg" alt="github" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./images/media-icons/Vector.svg" alt="vector" />
-          </a>
-        </li>
-      </ul>
-      <div href="#" class="resume button"><a>Get my resume</a></div>
-
-      <ul class="my-skills">
-        <li class="language-skills">
-          <div class="language-title">
-            Languages
-            <img src="./images/icons/down-arrow.svg" alt="down-arrow" />
-          </div>
-          <div class="language-names">
-            <div class="language-name">
-              <img src="./images/language-icons/javascript.svg" alt="" />
-              Javascript
-            </div>
-            <div class="language-name">
-              <img src="./images/language-icons/html.svg" alt="" />
-              HTML
-            </div>
-            <div class="language-name">
-              <img src="./images/language-icons/css.svg" alt="" />
-              CSS
-            </div>
-          </div>
-        </li>
-        <li>
-          Frameworks
-          <img src="./images/icons/right-arrow.svg" alt="right-arrow" />
-        </li>
-        <li>
-          Skills <img src="./images/icons/right-arrow.svg" alt="right-arrow" />
-        </li>
-      </ul>
-    </section>
-
-    <!-- About Section Ends -->
-
-    <!-- Contact Me Form Starts -->
-
-    <section class="contact-me">
-      <h2 class="contact-me-tittle">Contact Me</h2>
-      <p class="contact-me-text">
-        If you have an application you are interested in developing, a feature
-        that you need built or a project that needs coding. I’d love to help
-        with it
-      </p>
-      <form action="https://formspree.io/f/xpzerqbg" method="post">
-        <input
-          id="username"
-          type="text"
-          name="username"
-          required
-          maxlength="30"
-          title="Name should be text and not more than 30 characters"
-          placeholder="Enter your Name"
-        />
-
-        <input
-          id="useremail"
-          type="email"
-          name="email"
-          required
-          title="Only emails are allowed here"
-          placeholder="Enter your Email"
-        />
-
-        <textarea
-          id="message"
-          type="text"
-          rows="5"
-          name="message"
-          required
-          maxlength="500"
-          title="message should be not more than 500 characters"
-          placeholder="Write your message here"
-        ></textarea>
-
-        <div class="submit-div">
-          <button id="submit" type="submit">Get in touch</button>
+      <section class="about-section">
+        <div class="about-section-text">
+          <h2>
+            About <br />
+            Myself
+          </h2>
+          <p class="about-intro">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <p class="connect-about">let's connect</p>
+          <ul class="connect_icons">
+            <li>
+              <a href="#">
+                <img src="./images/media-icons/twitter.svg" alt="twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/media-icons/linkedin.svg" alt="linkedin" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/media-icons/Vector-1.svg" alt="vector-1" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/media-icons/github.svg" alt="github" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/media-icons/Vector.svg" alt="vector" />
+              </a>
+            </li>
+          </ul>
+          <div href="#" class="resume button"><a>Get my resume</a></div>
         </div>
-      </form>
-    </section>
+        <ul class="my-skills">
+          <li class="language-skills">
+            <div class="language-title">
+              Languages
+              <img src="./images/icons/down-arrow.svg" alt="down-arrow" />
+            </div>
+            <div class="language-names">
+              <div class="language-name">
+                <img src="./images/language-icons/javascript.svg" alt="" />
+                Javascript
+              </div>
+              <div class="language-name">
+                <img src="./images/language-icons/html.svg" alt="" />
+                HTML
+              </div>
+              <div class="language-name">
+                <img src="./images/language-icons/css.svg" alt="" />
+                Css
+              </div>
+            </div>
+          </li>
+          <li>
+            Frameworks
+            <img src="./images/icons/right-arrow.svg" alt="right-arrow" />
+          </li>
+          <li>
+            Skills
+            <img src="./images/icons/right-arrow.svg" alt="right-arrow" />
+          </li>
+        </ul>
+      </section>
 
-    <!-- Contact Me Form Ends -->
+      <!-- About Section Ends -->
+
+      <!-- Contact Me Form Starts -->
+
+      <section class="contact-me">
+        <h2 class="contact-me-tittle">Contact Me</h2>
+        <p class="contact-me-text">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+        <form action="https://formspree.io/f/xpzerqbg" method="post">
+          <input
+            id="username"
+            type="text"
+            name="username"
+            required
+            maxlength="30"
+            title="Name should be text and not more than 30 characters"
+            placeholder="Enter your Name"
+          />
+
+          <input
+            id="useremail"
+            type="email"
+            name="email"
+            required
+            title="Only emails are allowed here"
+            placeholder="Enter your Email"
+          />
+
+          <textarea
+            id="message"
+            type="text"
+            rows="5"
+            name="message"
+            required
+            maxlength="500"
+            title="message should be not more than 500 characters"
+            placeholder="Write your message here"
+          ></textarea>
+
+          <div class="submit-div">
+            <button id="submit" type="submit">Get in touch</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Contact Me Form Ends -->
+    </section>
   </body>
 </html>
