@@ -394,7 +394,9 @@ form textarea {
 
   main {
     margin-top: 75px;
-    padding: 284px 360px 255px;
+
+    /* padding: 284px 360px 255px; */
+    padding: 219px 360px 0;
     background-image: url("./images/desktop-header-bg.png");
     background-position-x: center;
     height: 100vh;
@@ -549,7 +551,7 @@ form textarea {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1080px) {
   header {
     padding-left: 50px;
     width: 100%;
@@ -578,8 +580,6 @@ form textarea {
   }
 
   .contact-me {
-    /* background-size: 100%;
-    background-position: center; */
     padding: 140px;
   }
 }
