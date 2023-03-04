@@ -64,8 +64,9 @@ h1 {
     margin-left: 200px;
   }
   to {
-    margin-left: 0px;
+    margin-left: 0;
   }
+  
 }
 
 .introduction {
@@ -341,11 +342,9 @@ form textarea {
 }
 
 #submit {
-  /* color: #6070ff; */
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  /* background: #fff; */
   border-radius: 8px;
   padding: 12px 16px;
   border: none;
@@ -353,8 +352,6 @@ form textarea {
 }
 
 #submit:hover {
-  /* color: #fff;
-  background: #6070ff; */
   animation-name: changing-background;
   animation-duration: 0.5s;
 }
@@ -365,9 +362,10 @@ form textarea {
     background-color: #fff;
   }
   to {
-    background-color: #6465ff; /* Green */
+    background-color: #6465ff;
     color: #fff;
   }
+
 }
 
 #submit:focus {
