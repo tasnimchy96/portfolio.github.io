@@ -63,10 +63,10 @@ h1 {
   from {
     margin-left: 200px;
   }
+
   to {
     margin-left: 0;
   }
-  
 }
 
 .introduction {
@@ -361,11 +361,11 @@ form textarea {
     color: #396df2;
     background-color: #fff;
   }
+  
   to {
     background-color: #6465ff;
     color: #fff;
   }
-
 }
 
 #submit:focus {
