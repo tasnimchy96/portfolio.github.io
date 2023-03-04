@@ -281,7 +281,8 @@ h1 {
   background-color: #6070ff;
   border-top-left-radius: 100px;
   background-image: url("./images/form.png");
-  background-size: 60%;
+  
+  /* background-size: 100%; */
   background-repeat: no-repeat;
   background-position-x: right;
   display: flex;
@@ -513,6 +514,7 @@ form textarea {
   /* Contact Me Section */
 
   .contact-me {
+    background-image: url("./images/desktop-images/desktop-contact-bg.svg");
     padding: 142px 435px 127px;
     gap: 27px;
   }
@@ -544,5 +546,39 @@ form textarea {
 
   #submit {
     margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  header {
+    padding-left: 50px;
+    width: 100%;
+  }
+  main {
+    padding: 150px 160px 155px;
+  }
+  .all-project-section {
+    margin: 50px;
+    margin-bottom: 0;
+  }
+
+  .project-info {
+    padding: 20px;
+  }
+
+  .language {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-section {
+    padding: 50px;
+  }
+
+  .contact-me {
+
+    /* background-size: 100%;
+    background-position: center; */
+    padding: 140px;
   }
 }
