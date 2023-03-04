@@ -31,6 +31,12 @@ header {
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.logo:hover {
+  font-size: 24px;
+  color: #b3bac5;
 }
 
 .menu img {
@@ -49,6 +55,18 @@ h1 {
   color: #172b4d;
   font-weight: 700;
   font-size: 40px;
+  animation-name: slide-in;
+  animation-duration: 2s;
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: 200px;
+  }
+
+  to {
+    margin-left: 0;
+  }
 }
 
 .introduction {
@@ -250,8 +268,8 @@ h1 {
 }
 
 .button:hover {
-  background-color: #6070ff;
-  color: #fff;
+  animation-name: changing-background;
+  animation-duration: 0.5s;
 }
 
 .button:active {
@@ -324,11 +342,9 @@ form textarea {
 }
 
 #submit {
-  color: #6070ff;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  background: #fff;
   border-radius: 8px;
   padding: 12px 16px;
   border: none;
@@ -336,8 +352,20 @@ form textarea {
 }
 
 #submit:hover {
-  color: #fff;
-  background: #6070ff;
+  animation-name: changing-background;
+  animation-duration: 0.5s;
+}
+
+@keyframes changing-background {
+  from {
+    color: #396df2;
+    background-color: #fff;
+  }
+
+  to {
+    background-color: #6465ff;
+    color: #fff;
+  }
 }
 
 #submit:focus {
