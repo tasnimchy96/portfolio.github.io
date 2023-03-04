@@ -139,6 +139,7 @@ h1 {
 }
 
 .used-language {
+  display: flex;
   margin-left: 20px;
   gap: 8px;
   margin-top: 12px;
@@ -146,8 +147,6 @@ h1 {
 }
 
 .language {
-  float: left;
-  margin-right: 8px;
   background-color: #ebebff;
   color: #6070ff;
   padding: 4px 12px;
@@ -182,8 +181,6 @@ h1 {
 }
 
 .about-section {
-  /* background-color: white;
-  border-top-right-radius: 100px; */
   padding: 114px 24px;
   margin-top: 114px;
 }
@@ -276,10 +273,6 @@ h1 {
 .button:disabled {
   border: 1px solid #e5e5e5;
   color: #5e6c84;
-}
-
-.clear {
-  clear: both;
 }
 
 /* Contact Me Section */
