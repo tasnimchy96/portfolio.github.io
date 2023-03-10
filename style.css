@@ -424,7 +424,7 @@ form textarea {
     margin-top: 75px;
 
     /* padding: 284px 360px 255px; */
-    padding: 219px 360px 0;
+    padding: 219px 271px 0px 181px;
     background-image: url("./images/desktop-header-bg.png");
     background-position-x: center;
     height: 100vh;
@@ -545,7 +545,7 @@ form textarea {
 
   .contact-me {
     background-image: url("./images/desktop-images/desktop-contact-bg.svg");
-    padding: 142px 435px 127px;
+    padding: 142px 250px 127px;
     gap: 27px;
   }
 
@@ -581,12 +581,11 @@ form textarea {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1080px) {
   header {
-    padding-left: 50px;
     width: 100%;
   }
 
   main {
-    padding: 150px 160px 155px;
+    padding: 219px 271px 0px 181px;    
   }
 
   .all-project-section {
