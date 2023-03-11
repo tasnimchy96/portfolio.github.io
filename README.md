@@ -7,6 +7,7 @@
 - [:computer: Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Project-Presentation](#project-presentation)
   - [Live-Demo](#live-demo)
 - [:busts_in_silhouette: Authors](#authors)
 - [:telescope: Future Features](#future-features)
@@ -29,10 +30,12 @@ HTML and CSS
 
 - **[- Use HTML & CSS linters]**
 - **[- Use Flexbox]**
+### Project-Presentation
+-[Project-Presentaion](https://www.loom.com/share/45259b4cedb14d478d971349773cf0aa)
 
-## :rocket: Live Demo
+### :rocket: Live-Demo
 
-- [No Live Demo Link]
+- [Live-Demo](https://tasnimchy96.github.io/portfolio.github.io/)
 
 ## :computer: Getting Started
 
@@ -41,9 +44,6 @@ It will print th cover page of the portfolio.
 ### Prerequisites
 
 In order to run this project you need: Any Browser e.g. Google Chrome
-
-### Live-Demo
-[Live-Demo](https://tasnimchy96.github.io/portfolio.github.io/)
 
 ### Setup
 
