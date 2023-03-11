@@ -7,6 +7,7 @@
 - [:computer: Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Live-Demo](#live-demo)
 - [:busts_in_silhouette: Authors](#authors)
 - [:telescope: Future Features](#future-features)
 - [:handshake: Contributing](#contributing)
@@ -22,11 +23,7 @@
 ### Tech Stack
 
 **Client**
-React.js
-**Server**
-Express.js
-**Database**
-PostgreSQL
+HTML and CSS
 
 ### Key Features
 
@@ -45,9 +42,13 @@ It will print th cover page of the portfolio.
 
 In order to run this project you need: Any Browser e.g. Google Chrome
 
+### Live-Demo
+[Live-Demo](https://tasnimchy96.github.io/portfolio.github.io/)
+
 ### Setup
 
 Clone the repository inside your desired folder and run the .html file
+
 
 ## :busts_in_silhouette: Authors
 
