@@ -433,11 +433,6 @@ form textarea {
   border: 1px solid #c1c7d0;
 }
 
-/* #error-message {
-  color: red;
-  display: none;
-} */
-
 @media (min-width: 768px) {
   .white-background {
     border-bottom-left-radius: 100px;
