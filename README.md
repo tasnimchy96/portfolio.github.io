@@ -24,11 +24,11 @@
 ### Tech Stack
 
 **Client**
-HTML and CSS
+HTML, CSS and Javascript
 
 ### Key Features
 
-- **[- Use HTML & CSS linters]**
+- **[- Use Javascript, HTML & CSS linters]**
 - **[- Use Flexbox]**
 ### Project-Presentation
 -[Project-Presentaion](https://www.loom.com/share/45259b4cedb14d478d971349773cf0aa)
@@ -57,6 +57,12 @@ Clone the repository inside your desired folder and run the .html file
 - GitHub: [@tasnimchy96](https://github.com/tasnimchy96)
 - Twitter:[@tasnimchy96](https://twitter.com/tasnimchy96)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tasnim-ahmed-chowdhury-b4504625b)
+
+:bust_in_silhouette: **Melissa Mazir**
+
+- GitHub: [@melybee-07](https://github.com/melybee-07)
+- Twitter: [@mazir_melissa](https://twitter.com/mazir_melissa)
+- LinkedIn: [melissa mazir](https://www.linkedin.com/in/melissa-mazir-172574223/)
 
 ## :telescope: Future Features
 
