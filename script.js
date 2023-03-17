@@ -17,10 +17,11 @@ const emailField = document.getElementById('useremail');
 form.addEventListener('submit', (event) => {
   if (emailField.value !== emailField.value.toLowerCase()) {
     event.preventDefault();
-    const error = document.createElement('div');
-    error.innerText = 'Email must be in lowercase';
-    error.style.color = 'red';
-    const submitButton = document.getElementById('submit');
-    submitButton.parentNode.insertBefore(error, submitButton.nextSibling);
+
+    const errorMessage = document.getElementById('error-message');
+    errorMessage.style.display = 'block';
+  } else {
+    const errorMessage = document.getElementById('error-message');
+    errorMessage.style.display = 'none';
   }
 });
