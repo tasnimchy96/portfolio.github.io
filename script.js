@@ -5,3 +5,6 @@ function openNav() {
 function closeNav() {
   document.getElementById('myNav').style.width = '0%';
 }
+
+document.querySelector('.open').addEventListener('click', openNav);
+document.querySelector('.close').addEventListener('click', closeNav);

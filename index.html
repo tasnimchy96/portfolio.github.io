@@ -14,7 +14,7 @@
       <header>
         <a class="logo">tasnim</a>
         <nav class="menu">
-          <img src="./images/Menu.png" alt="menu of toolbar"  onclick="openNav()"/>
+          <img src="./images/Menu.png" alt="menu of toolbar" class="open"/>
           <ul class="nav-item">
             <li><a href="">Portfolio</a></li>
             <li><a href="">About</a></li>
@@ -24,14 +24,14 @@
 
         <!-- menu toggle -->
 
-        <div id="myNav" class="overlay" onclick="closeNav()">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        <div id="myNav" class="overlay close">
+          <a href="javascript:void(0)" class="closebtn close"
             >&times;</a
           >
           <div class="overlay-content">
-            <a href="#portfolio" onclick="closeNav()">Portfolio</a>
-            <a href="#about" onclick="closeNav()">About</a>
-            <a href="#contact" onclick="closeNav()">Contact</a>
+            <a href="#portfolio" class="close">Portfolio</a>
+            <a href="#about" class="close">About</a>
+            <a href="#contact" class="close">Contact</a>
           </div>
         </div>
       </header>
