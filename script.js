@@ -16,7 +16,7 @@ const modalData = [
     project_client: 'CANOPY',
     client_service: ' Back End Dev',
     service_year: ' 2015',
-    desktop_image: './images/modal-snapshot.png',
+    desktop_image: './images/snapshot-1.svg',
     project_details:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.',
     html: 'Html',
@@ -37,7 +37,7 @@ const modalData = [
     project_client: 'CANOPY',
     client_service: ' Back End Dev',
     service_year: ' 2015',
-    desktop_image: './images/modal-snapshot.png',
+    desktop_image: './images/snapshot-2.svg',
     project_details:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.',
     html: 'Html',
@@ -58,7 +58,7 @@ const modalData = [
     project_client: 'CANOPY',
     client_service: ' Back End Dev',
     service_year: ' 2015',
-    desktop_image: './images/modal-snapshot.png',
+    desktop_image: './images/snapshot-3.svg',
     project_details:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.',
     html: 'Html',
@@ -79,7 +79,7 @@ const modalData = [
     project_client: 'CANOPY',
     client_service: ' Back End Dev',
     service_year: ' 2015',
-    desktop_image: './images/modal-snapshot.png',
+    desktop_image: './images/snapshot-4.svg',
     project_details:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.',
     html: 'Html',
@@ -134,9 +134,9 @@ openModalButtons.forEach((button) => {
               <li class="modal-language"><a href="">${modal.html}</a></li>
               <li class="modal-language"><a href="">${modal.css}</a></li>
               <li class="modal-language"><a href="">${modal.javascript}</a></li>
-              <li class="modal-language"><a href="">${modal.github}</a></li>
-              <li class="modal-language"><a href="">${modal.ruby}</a></li>
-              <li class="modal-language"><a href="">${modal.botstrap}</a></li>
+              <li class="modal-language lan"><a href="">${modal.github}</a></li>
+              <li class="modal-language lan"><a href="">${modal.ruby}</a></li>
+              <li class="modal-language lan"><a href="">${modal.botstrap}</a></li>
             </ul>
             <hr class="modal-hr"/>
             <div class="modal-buttons">
