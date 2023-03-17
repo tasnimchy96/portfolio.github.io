@@ -49,6 +49,174 @@ header {
   display: none;
 }
 
+/* Modal */
+
+#modal-container {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.my-modal {
+  background: #fff;
+  border: 0.063rem solid #ebecf0;
+  box-shadow: 0 3rem 3rem rgba(37, 47, 137, 0.08);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal-project-headline > h2 {
+  margin: 0;
+}
+
+.my-modal > img {
+  width: auto;
+  height: 10rem;
+}
+
+.modal-project-headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.modal-project-client {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.modal-project-client > p {
+  margin: 0;
+  color: #7a869a;
+}
+
+.modal-snapshot-title {
+  color: #344563;
+}
+
+.modal-circle {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #c1c7d0;
+}
+
+.modal-used-language {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.overlay > a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.modal-used-language > li > a {
+  text-decoration: none;
+}
+
+.modal-language {
+  background-color: #ebebff;
+  color: #6070ff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.modal-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 9.25rem;
+  height: 3rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.063rem;
+  border: 0.063rem solid #6070ff;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  margin: 0;
+  color: #396df2;
+}
+
+.modal-button:hover {
+  animation-name: changing-background;
+  animation-duration: 0.5s;
+}
+
+.modal-button:active {
+  background-color: #2230d2;
+}
+
+.modal-button:disabled {
+  border: 1px solid #e5e5e5;
+  color: #5e6c84;
+}
+
+@keyframes changing-background {
+  from {
+    color: #396df2;
+    background-color: #fff;
+  }
+
+  to {
+    background-color: #6465ff;
+    color: #fff;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  .my-modal > img {
+    width: auto;
+    height: 40rem;
+  }
+
+  #modal-container {
+    padding: 4.813rem 8.875rem;
+  }
+
+  .modal-project-info {
+    display: flex;
+  }
+
+  .modal-project-info > p {
+    width: 75%;
+  }
+
+  .modal-hr {
+    margin: 2rem 0;
+    border: 0.063rem solid #ebecf0;
+    width: 95%;
+  }
+}
+
 /* Menu Toggle */
 
 .overlay {
@@ -71,18 +239,8 @@ header {
   margin: 30% 10%;
 }
 
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  font-weight: 500;
-  color: #fff;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover,
-.overlay a:focus {
+.overlay > a:hover,
+.overlay > a:focus {
   color: #f1f1f1;
 }
 
