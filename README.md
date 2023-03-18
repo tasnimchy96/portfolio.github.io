@@ -44,7 +44,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need a web browser
+In order to run this project you need a web browser, node, npm and an IDE like VS Code should be installed in your computer.
 
 ### Setup
 
@@ -56,14 +56,17 @@ git clone https://github.com/tasnimchy96/portfolio.github.io
 cd portfolio.github.io
 code .
 ```
-
 ### Install
 
 Install this project using the cloned repo or download and use the files to your local machine.
 
+```sh
+cd <path-to-the-cloned-repo>
+code .
+```
 ### Usage
 
-To run the project open the index.html file in your web browser
+To run the project open the index.html file in your web browser or you can also open live server from the IDE.
 
 ### Run tests
 
@@ -107,7 +110,7 @@ If you like this project feel free to share with your friends.
 
 ## :pray: Acknowledgments
 
-I would like to thank Microverse for this amazing exercise.
+I would like to thank Microverse for this amazing exercise and also like to thank for the kind collaboration of Mellisa Mazir.
 
 ## 📝 License <a name="license"></a>
 This project is [MIT](./LICENSE.md) licensed.
