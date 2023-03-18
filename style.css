@@ -53,8 +53,6 @@ header {
 
 #modal-container {
   display: none; /* Hidden by default */
-
-  /* text-align: center; */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
@@ -71,7 +69,7 @@ header {
   border: 0.063rem solid #ebecf0;
   box-shadow: 0 3rem 3rem rgba(37, 47, 137, 0.08);
   border-radius: 1rem;
-  margin: 1rem 1.75rem 0 1.75rem;
+  margin: 1rem 1.75rem 1rem 1.75rem;
   padding: 1.25rem;
   display: flex;
   flex-direction: column;
@@ -148,6 +146,7 @@ header {
 
 .modal-used-language > li > a {
   text-decoration: none;
+  color: #6070ff;
 }
 
 .lan {
@@ -163,7 +162,8 @@ header {
 
 .modal-buttons {
   display: flex;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1.95rem;
 }
 
 .modal-button {
@@ -179,7 +179,8 @@ header {
   padding: 0.75rem;
   border-radius: 0.5rem;
   margin: 0;
-  color: #396df2;
+  color: #6070ff;
+  background-color: #fff;
 }
 
 .modal-button:hover {
@@ -209,17 +210,12 @@ header {
 }
 
 .modal-hr {
-  margin: 1rem 0;
+  margin: 25px 0;
   border: 0.063rem solid #ebecf0;
   width: 100%;
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* .my-modal > img {
-    width: auto;
-    height: 40rem;
-  } */
-
   .lan {
     display: grid;
   }
@@ -244,9 +240,9 @@ header {
   }
 
   .modal-hr {
-    margin: 2rem 0;
+    margin: 21px 0;
     border: 0.063rem solid #ebecf0;
-    width: 95%;
+    width: 100%;
   }
 }
 
