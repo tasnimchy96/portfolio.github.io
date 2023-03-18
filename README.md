@@ -48,7 +48,14 @@ In order to run this project you need a web browser
 
 ### Setup
 
-Clone this repository to your desired folder:
+Open Terminal & Clone this repository to your desired folder:
+
+```sh
+cd <path-to-the-folder>
+git clone https://github.com/tasnimchy96/portfolio.github.io
+cd portfolio.github.io
+code .
+```
 
 ### Install
 
