@@ -193,4 +193,4 @@ form.addEventListener('submit', (event) => {
     const errorMessage = document.getElementById('error-message');
     errorMessage.style.display = 'none';
   }
-})
+});
