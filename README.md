@@ -14,6 +14,7 @@
 - [:handshake: Contributing](#contributing)
 - [:star:️ Show your support](#support)
 - [:pray: Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 # :book: [Hello Microverse project]
 
@@ -83,13 +84,6 @@ If you like this project feel free to share with your friends.
 
 I would like to thank Microverse for this amazing exercise.
 
-## :memo: License
+## 📝 License <a name="license"></a>
+This project is [MIT](./LICENSE.md) licensed.
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
-GitHubGitHub
-tasnim - Overview
-tasnim has 17 repositories available. Follow their code on GitHub.
-Choose a LicenseChoose a License
-MIT License
-A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
-Dec 28th, 2022
