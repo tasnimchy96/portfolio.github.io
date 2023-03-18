@@ -7,6 +7,9 @@
 - [:computer: Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
   - [Project-Presentation](#project-presentation)
   - [Live-Demo](#live-demo)
 - [:busts_in_silhouette: Authors](#authors)
@@ -14,10 +17,11 @@
 - [:handshake: Contributing](#contributing)
 - [:star:️ Show your support](#support)
 - [:pray: Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-# :book: [Hello Microverse project]
+# :book: [Portfolio]
 
-**[Hello Microverse project]** is a microverse project where I created a portfolio front page using HTML & CSS.
+**[Portfolio]** is a microverse project where I created a portfolio front page using HTML, CSS & Javascript. In this project I included heading section, project presentation section, about section & contact me form.
 
 ## :hammer_and_wrench: Built With
 
@@ -29,26 +33,41 @@ HTML, CSS and Javascript
 ### Key Features
 
 - **[- Use Javascript, HTML & CSS linters]**
-- **[- Use Flexbox]**
+- **[- Add Mobile Menu Toggle using Javascript]**
+- **[- Add Modal with detail of the project when click to the see project button in the project cards.]**
+- **[- Validate contact form using Javascript (Show error if the E-mail is not in Lowercase)]**
+- **[- Use Flexbox & Grid]**
+
+## :computer: Getting Started
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need a web browser
+
+### Setup
+
+Clone this repository to your desired folder:
+
+### Install
+
+Install this project using the cloned repo or download and use the files to your local machine.
+
+### Usage
+
+To run the project open the index.html file in your web browser
+
+### Run tests
+
+No test are available
+
 ### Project-Presentation
 -[Project-Presentaion](https://www.loom.com/share/45259b4cedb14d478d971349773cf0aa)
 
 ### :rocket: Live-Demo
 
 - [Live-Demo](https://tasnimchy96.github.io/portfolio.github.io/)
-
-## :computer: Getting Started
-
-It will print th cover page of the portfolio.
-
-### Prerequisites
-
-In order to run this project you need: Any Browser e.g. Google Chrome
-
-### Setup
-
-Clone the repository inside your desired folder and run the .html file
-
 
 ## :busts_in_silhouette: Authors
 
@@ -83,13 +102,5 @@ If you like this project feel free to share with your friends.
 
 I would like to thank Microverse for this amazing exercise.
 
-## :memo: License
-
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
-GitHubGitHub
-tasnim - Overview
-tasnim has 17 repositories available. Follow their code on GitHub.
-Choose a LicenseChoose a License
-MIT License
-A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
-Dec 28th, 2022
+## 📝 License <a name="license"></a>
+This project is [MIT](./LICENSE.md) licensed.
