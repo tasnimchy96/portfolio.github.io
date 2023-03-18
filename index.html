@@ -14,7 +14,7 @@
       <header>
         <a class="logo">tasnim</a>
         <nav class="menu">
-          <img src="./images/Menu.png" alt="menu of toolbar" class="open"/>
+          <img src="./images/Menu.png" alt="menu of toolbar" class="open" />
           <ul class="nav-item">
             <li><a href="">Portfolio</a></li>
             <li><a href="">About</a></li>
@@ -25,9 +25,7 @@
         <!-- menu toggle -->
 
         <div id="myNav" class="overlay close">
-          <a href="javascript:void(0)" class="closebtn close"
-            >&times;</a
-          >
+          <a href="javascript:void(0)" class="closebtn close">&times;</a>
           <div class="overlay-content">
             <a href="#portfolio" class="close">Portfolio</a>
             <a href="#about" class="close">About</a>
@@ -345,7 +343,11 @@
           that you need built or a project that needs coding. I’d love to help
           with it
         </p>
-        <form action="https://formspree.io/f/xpzerqbg" method="post">
+        <form
+          id="myForm"
+          action="https://formspree.io/f/xpzerqbg"
+          method="post"
+        >
           <input
             id="username"
             type="text"
@@ -364,6 +366,8 @@
             title="Only emails are allowed here"
             placeholder="Enter your Email"
           />
+
+          <p id="error-message">&#9888; Email must be in lowercase</p>
 
           <textarea
             id="message"
