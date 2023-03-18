@@ -114,21 +114,29 @@ openModalButtons.forEach((button) => {
     // Create the HTML for the modal content
     const modalHTML = `
       <div class="my-modal">
-        <div class="modal-project-headline">
-          <h2>${modal.project_title}</h2>
-          <div class="modal-project-client">
-            <p class="modal-snapshot-title">${modal.project_client}</p>
-            <span class="modal-circle"></span>
-            <p>${modal.client_service}</p>
-            <span class="modal-circle"></span>
-            <p>${modal.service_year}</p>
+        <div class="modal-head">
+          <div class="modal-project-headline">
+            <h2>${modal.project_title}</h2>
+            <div class="modal-project-client">
+              <p class="modal-snapshot-title">${modal.project_client}</p>
+              <span class="modal-circle"></span>
+              <p>${modal.client_service}</p>
+              <span class="modal-circle"></span>
+              <p>${modal.service_year}</p>
+            </div>
           </div>
+          <span class="close-button">&#10005;</span>
         </div>
         <img src="${modal.desktop_image}" alt="" />
         <div class="modal-project-info">
-          <p>
-            ${modal.project_details}
-          </p>
+          <div class="project-details">
+            <p>
+              ${modal.project_details}
+            </p>
+            <p>
+              ${modal.project_details}
+            </p>
+          </div>
           <div>
             <ul class="modal-used-language">
               <li class="modal-language"><a href="">${modal.html}</a></li>
@@ -136,7 +144,7 @@ openModalButtons.forEach((button) => {
               <li class="modal-language"><a href="">${modal.javascript}</a></li>
               <li class="modal-language lan"><a href="">${modal.github}</a></li>
               <li class="modal-language lan"><a href="">${modal.ruby}</a></li>
-              <li class="modal-language lan"><a href="">${modal.botstrap}</a></li>
+              <li class="modal-language lan"><a href="">${modal.bootstrap}</a></li>
             </ul>
             <hr class="modal-hr"/>
             <div class="modal-buttons">
@@ -161,6 +169,11 @@ openModalButtons.forEach((button) => {
       if (event.target === modalContainer) {
         modalContainer.style.display = 'none';
       }
+    });
+
+    const closeButton = document.querySelector('.close-button');
+    closeButton.addEventListener('click', () => {
+      modalContainer.style.display = 'none';
     });
   });
 });
